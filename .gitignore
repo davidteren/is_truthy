@@ -7,3 +7,5 @@ tmp
 /.idea/modules.xml
 /.idea/truthy_tool.iml
 /.idea/vcs.xml
+
+coverage
