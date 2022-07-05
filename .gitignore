@@ -8,4 +8,4 @@ tmp
 /.idea/truthy_tool.iml
 /.idea/vcs.xml
 
-coverage
+/coverage
