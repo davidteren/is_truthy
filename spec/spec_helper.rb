@@ -4,7 +4,9 @@ require "bundler/setup"
 Bundler.require :tools
 
 require "simplecov"
-SimpleCov.start { enable_coverage :branch }
+SimpleCov.start do
+  add_filter "/support/shared_contexts/"
+end
 
 require "truthy_tool"
 require "refinements"
